@@ -1,0 +1,124 @@
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    width: 95vw;
+    height: 12vh;
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2 .container2-box2{
+    width: 35%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container2 .container2-box2 dl{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.container2 .container2-box2 dl dt video{
+    display: none;
+}
+
+.container2 .container2-box2 dl dt:hover video{
+    display: block;
+}
+
+.container2 .container2-box2 dd:hover a{
+    color: aqua;
+}
+
+.container2 .container2-box2 a{
+    color: black;
+}
+
+.container2 .container2-box2 dl dt{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.container2 .container2-box2 dl .container2-box2__grow{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}

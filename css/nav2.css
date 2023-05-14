@@ -1,0 +1,463 @@
+.nav {
+    width: 100vw;
+    height: 13vh;
+    background-size: 100% 100%;
+    /* background-image: url('../image/屏幕截图\ 2023-05-04\ 181117.png'); */
+    /* background-repeat: no-repeat; */
+    background: linear-gradient(to right top,#44fc9de4 ,rgb(0, 179, 255),#1ecfbbcb);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 3px 5px grey;
+}
+
+.nav .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.nav .ul{
+    width: 90%;
+}
+
+.nav .ul li a {
+    width: 50px;
+    height: 44px;
+    line-height: 44px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.nav .ul li a:hover {
+    color: cyan;
+}
+
+.nav .ul2 li a:hover {
+    color: cyan;
+}
+
+.nav #shousuo {
+    width: 25%;
+    height: 38px;
+    margin-top: 13px;
+    /* opacity: .8; */
+    /* color: black; */
+    /* padding-left: 20px; */
+}
+
+.nav .tougao:hover{
+    box-shadow: 0 0 5px white;
+}
+
+.nav .ul2 {
+    display: flex;
+}
+
+.nav .ul2 li {
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 80px;
+}
+
+.nav .ul2 li a {
+    height: 44px;
+    line-height: 15px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.nav .ul2 .hover {
+    background-color: white;
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 大会员的悬浮效果 */
+.ul2 .hover .hover-box1 .tequan{
+    color: black;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ul2 .hover .hover-box1 .tequan:hover{
+    color: red;
+}
+
+.ul2 .huiyuan .hover{
+    display: none;
+    width: 479px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    /* display: flex;
+    flex-direction: row; */
+    position: relative;
+    left: -185px;
+    top: -80px;
+}
+
+.ul2 .huiyuan:hover .hover{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    z-index: 20;
+}
+
+.nav .ul2 .huiyuan:hover .height {
+    height: 135px;
+    /* box-shadow: 0 0 5px grey; */
+}
+
+.ul2 .huiyuan .hover .hover-box1{
+    display: flex;
+    flex-direction: column;
+}
+
+.ul2 .huiyuan .hover .hover-box1 dl{
+    width: 303px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    /* border: 1px solid red; */
+}
+
+.ul2 .huiyuan .hover .hover-box1 dl a{
+    font-size: 15px;
+    color: black;
+}
+
+.ul2 .huiyuan .hover .hover-box1 dl a:hover{
+    color: rgb(0, 183, 255);
+}
+
+.ul2 .huiyuan .hover .hover-box1 .hover-box1_button{
+    background-color: deeppink;
+    border-radius: 8px;
+    line-height: 40px;
+}
+
+.ul2 .huiyuan .hover .hover-box1 .hover-box1_button:hover{
+    box-shadow: 0 0 5px grey;
+}
+
+.ul2 .huiyuan .hover .hover-box2{
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 消息的悬浮效果 */
+
+
+/* .nav .ul2 .hover2{
+    display: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    width: 120px;
+    height: 230px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: -25px;
+    top: -80px;
+}
+
+.nav .ul2 .hover2 a{
+    color: black;
+    border: 1px solid black;
+}
+
+.nav .ul2 .xiaoxi:hover a{
+    height: 135px;
+}
+
+.nav .ul2 .xiaoxi:hover .hover2{
+    display: block;
+} */
+
+.nav .ul2 .xiaoxi .hover2 {
+    display: none;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    width: 376px;
+    height: 114px;
+    line-height: 65px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: -154px;
+    top: -88px;
+}
+
+.nav .ul2 .hover2 a {
+    width: 100%;
+    color: white;
+    background-color: #167fe1;
+    border-radius: 10px;
+    line-height: 40px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+}
+
+.nav .ul2 .xiaoxi:hover .height {
+    height: 135px;
+    /* box-shadow: 0 0 5px grey; */
+}
+
+.nav .ul2 .xiaoxi:hover .hover2 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 动态的悬浮效果 */
+
+.nav .ul2 .dongtai .hover3 {
+    display: none;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    width: 376px;
+    height: 114px;
+    line-height: 65px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: -154px;
+    top: -88px;
+}
+
+.nav .ul2 .hover3 a {
+    width: 100%;
+    color: white;
+    background-color: #167fe1;
+    border-radius: 10px;
+    line-height: 40px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+}
+
+.nav .ul2 .dongtai:hover .height {
+    height: 135px;
+    /* box-shadow: 0 0 5px grey; */
+}
+
+.nav .ul2 .dongtai:hover .hover3 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 收藏的悬浮效果 */
+
+.nav .ul2 .shouchang .hover4 {
+    display: none;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    width: 376px;
+    height: 114px;
+    line-height: 65px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: -154px;
+    top: -88px;
+}
+
+.nav .ul2 .hover4 a {
+    width: 100%;
+    color: white;
+    background-color: #167fe1;
+    border-radius: 10px;
+    line-height: 40px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+}
+
+.nav .ul2 .shouchang:hover .height {
+    height: 135px;
+    /* box-shadow: 0 0 5px grey; */
+}
+
+.nav .ul2 .shouchang:hover .hover4 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 收藏的悬浮效果 */
+
+.nav .ul2 .lishi .hover5 {
+    display: none;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    width: 376px;
+    height: 114px;
+    line-height: 65px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: -154px;
+    top: -88px;
+}
+
+.nav .ul2 .hover5 a {
+    width: 100%;
+    color: white;
+    background-color: #167fe1;
+    border-radius: 10px;
+    line-height: 40px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+}
+
+.nav .ul2 .lishi:hover .height {
+    height: 135px;
+    /* box-shadow: 0 0 5px grey; */
+}
+
+.nav .ul2 .lishi:hover .hover5 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 投稿悬浮效果 */
+.nav .nav-tougao .hover6{
+    margin: 0px;
+    width: 340px;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    justify-content: space-between;
+    position: relative;
+    left: -250px;
+    top: 25px;
+}
+
+.nav .nav-tougao .hover6 li{
+    /* border: 1px solid red; */
+    /* width: 100px; */
+    text-align: center;
+}
+
+.nav .nav-tougao .hover6 li a:hover{
+    color: red;
+}
+
+.nav .nav-tougao:hover .hover6{
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
