@@ -1,0 +1,11 @@
+header {
+    height: 100px;
+}
+
+.header-img{
+    width: 100vw;
+    height: 11vh;
+}
+.content-item{
+    display: flex;
+}
