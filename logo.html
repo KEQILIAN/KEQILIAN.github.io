@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哔哩哔哩登录</title>
+    <link rel="stylesheet" href="css/header1-a.css">
+    <link rel="stylesheet" href="css/content1-a.css">
+    <link rel="stylesheet" href="css/footer1-a.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        ul,
+        ol,
+        dl,
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        body {
+            width: 1024px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header">
+        <img src="img/登录页面顶部图.png" alt="" class="header-img">
+    </header>
+
+
+
+
+    <div style="display: flex;" class="content">
+        <div>
+            <img src="img/登录框左边的图.png" alt="" class="content-img">
+        </div>
+
+        <form action="index.html" class="content-box" onsubmit="return abc()">
+            <div class="content-item-a">
+                <div class="content-img--pwd">密码登录 <span style="margin: 0 20px;">|</span></div>
+                <div>短信登录</div>
+            </div>
+            <div class="content-item">
+                <label for="aa" style="width: 37px; margin-left: 10px;">账号</label>
+                <input type="text" placeholder="请输入账号" id="mi" class="aa">
+            </div>
+            <div class="content-item">
+                <label for="bb" class="bb">密码</label>
+                <input type="password" placeholder="请输入密码" class="aa" id="ma">
+                <span class="password-title">
+                   <a href="" class="aa-link">忘记密码？</a>
+                </span>
+            </div>
+            <div class="content-boxa4">
+                <a href="" class="txt-submit">
+                    <span class="centent-box--zhanghao">没有账号立即注册</span>
+                    <span class="centent-box-anniu"><input type="submit" value="登录" class="content-box-sub"></span>
+                </a>
+            </div>
+            <div>
+                <input type="checkbox" name="V" id="V"><span style="font-weight: bold;font-size: 12px; margin:15px 5px; ">记住我</span>
+                <span style="font-size: 12px; margin: 20px 0;">不是自己的电脑不要勾选此项</span>
+            </div>
+            <div style="color:gray;font-size: 12px; margin-top: 15px;">其他方式登录</div>
+            <div class="content-item-bot">
+                <img src="img/微信登录.png" alt="" class="content-item--deng">
+                <img src="img/微博登录.png" alt="" class="content-item--deng">
+                <img src="img/QQ登录.png" alt="" class="content-item--deng">
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        function abc() {
+            var sum1 = document.getElementById("mi").value;
+            var sum2 = document.getElementById("ma").value;
+            if (sum1 == "ziluolan" && sum2 == "123456") {
+                alert("登录成功");
+                return true;
+            } else {
+                alert("请输入正确的账号密码");
+                return false;
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="content-tet">
+        <p>未注册过哔哩哔哩的手机号，我们将自动帮你注册账号</p>
+        <p>登陆及代表你同意 <a href="" style="color:aqua">用户协议</a> 和<a href="" style="color:aqua">隐私政策</a></p>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-box" style="margin: 0 80px; padding: 5px; font-size: 12px;">
+            <P style="color: gray;">bilibili</P>
+            <p>
+                <span><a href=""> 关于我们</a> </span>
+                <span><a href="">友情链接</a> </span>
+            </p>
+            <p>
+                <span><a href="">联系我们</a> </span>
+                <span><a href="">隐私政策</a> </span>
+            </p>
+            <p>
+                <span><a href=""> 用户协议</a></span>
+                <span>
+                    <a href="">bilibili认证</a>
+                </span>
+            </p>
+        </div>
+        <div class="footer-box" style="margin: 0 80px; padding: 5px; font-size: 12px;">
+            <p style="color: gray;">传送门</p>
+            <p>
+                <span style="height: 20px;"><a href="" >协议汇总</a></span>
+                <span><a href="">帮助中心</a></span>
+                <span><a href="">名人堂</a></span>
+            </p>
+            <p>
+                <span><a href="">活动中心</a></span>
+                <span><a href="">社区中心</a></span>
+                <span><a href="">McN管理中心</a></span>
+            </p>
+            <p>
+                <span><a href="">活动专项</a></span>
+                <span><a href="">壁纸贴</a></span>
+                <span><a href="">高级弹幕</a></span>
+            </p>
+        </div>
+        <div class="footer-box__a" style="margin: 0 80px;" style="margin: 0 50px; padding: 5px; font-size: 12px;">
+            <span>
+                <a href="">
+                    <img src="img/下载app.png" alt="" class="footer-box__a--img" style="width: 80px; height: 70px;"><br>
+                    <span style="color: gray;font-size: 12px;">下载app</span>
+            </a>
+            </span>
+            <span>
+                <a href="">
+                    <img src="img/公益.png" alt="" class="footer-box__a--img" style="width: 70px; height: 70px;"><br>
+                    <span  style="color: gray;font-size: 12px;">公益</span>
+            </a>
+            </span>
+            <span>
+                <a href="">
+                    <img src="img/微博logo.png" alt="" class="footer-box__a--img" style="width: 80px; height: 70px;"><br>
+                    <span  style="color: gray;font-size: 12px;">新浪微博</span>
+            </a>
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
